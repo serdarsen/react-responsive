@@ -9,7 +9,7 @@ export const homeObjOne = {
   buttonLabel: "Get Started",
   imgStart: "",
   img: "images/svg-1.svg",
-  alt: "Credit Card",
+  alt: "Card",
 };
 
 export const homeObjTwo = {

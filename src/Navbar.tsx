@@ -40,13 +40,17 @@ export const Navbar: FC = () => {
             </div>
             <ul className={click ? "nav-menu active" : "nav-menu"}>
               <li className="nav-item">
-                <Link to="/" className="nav-links" onClick={closeMobileMenu}>
+                <Link
+                  to="/react-responsive/"
+                  className="nav-links"
+                  onClick={closeMobileMenu}
+                >
                   Home
                 </Link>
               </li>
               <li className="nav-item">
                 <Link
-                  to="/services"
+                  to="/react-responsive/service"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
@@ -55,7 +59,7 @@ export const Navbar: FC = () => {
               </li>
               <li className="nav-item">
                 <Link
-                  to="/products"
+                  to="/react-responsive/product"
                   className="nav-links"
                   onClick={closeMobileMenu}
                 >
@@ -65,7 +69,7 @@ export const Navbar: FC = () => {
               <li className="nav-btn">
                 {button ? (
                   <Link
-                    to="/sign-up"
+                    to="/react-responsive/sign-up"
                     className="btn-link"
                     onClick={closeMobileMenu}
                   >
